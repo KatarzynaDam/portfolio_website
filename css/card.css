@@ -1,0 +1,637 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100);
+
+* {margin: 0;padding: 0;}
+
+
+body{
+	font-family: 'Lato';
+    background-color: white;
+}
+
+
+
+header{
+width: 100%;
+margin: 0 auto;
+text-align:center;
+line-height:10px;
+float: center;
+}
+
+.nav{
+	float:center;
+	margin: 0;
+	list-style-type: none;
+	width: 100%;
+	
+}
+
+nav ul, nav li{
+	display:inline;
+	list-style-type: none;
+	
+}
+
+nav li{
+	padding:2px 2px 2px 2px;
+	margin-left: 0px;
+}
+
+nav li a{
+	text-decoration:none;
+	color:#888;
+	font-size:14px;
+	font-weight: bold;
+	margin: 0px 0px 0 0px;
+}
+
+
+
+.fa-square-o{
+   font-size:24px;
+   color:#E5E5E5; 
+	
+}
+#contact .fa-facebook-square{
+	font-size:24px;
+	color:gray;
+	padding: 0px 7px;
+}
+#contact .fa-instagram{
+    	font-size:24px;
+    	color:gray;
+	padding: 0px 6px;
+}
+
+#contact .fa-twitter{
+    	font-size:26px;
+    	color:gray;
+	padding: 0px 5px;
+}
+
+
+#contact .fa-behance{
+    	font-size:24px;
+    	color:gray;
+	padding: 0px 4px;
+	margin-left: 4px;
+}
+
+}
+
+
+#contact ul, #contact li{
+	list-style-type:none;
+	display:inline;
+}
+
+.wrapper{
+	padding: 0 0px;
+	margin:0px 0 auto;
+	box-sizing: border-box;
+    	width:100%;
+    
+}
+.box{
+    width: 100%;
+	float:right;
+	height:100px;
+	text-align:center;
+	line-height:10px;
+   	 font-size:30px;
+    	color:white;  
+    	
+}
+	
+
+.box5{
+   	 width: 100%;
+	float:right;
+	height:60px;
+	text-align:center;
+	line-height:30px;
+  	font-size:45px;
+   	color:white;  
+	padding: 10px 0px 0px 0px;
+	margin-top: 60px;
+}    
+
+.box6{
+   	 width: 100%;
+	float:right;
+	height:60px;
+	text-align:center;
+	line-height:30px;
+  	font-size:45px;
+   	color:white;  
+	padding: 10px 0px 0px 0px;
+	margin-top: 70px;
+}    
+
+.box3{
+   	 width: 100%;
+	float:right;
+	height:200px;
+	text-align:center;
+	line-height:30px;
+  	  font-size:45px;
+   	 color:white;  
+	
+}
+
+.box4{
+    width: 100%;
+	float:center;
+	height:45px;
+	text-align:center;
+    	font-size:25px;
+    	color:white;  
+	width:100%;
+	margin:0 auto;
+	clear:both;  
+}
+
+.box4 a{
+	color:grey;
+	font-size:16px;
+	text-decoration:none;
+	padding:10px;
+	background:white;
+	opacity: 0.5;
+	-webkit-transition:all 0.7s;
+	transition:all 0.7s;  
+	height: 40px;
+ 
+}
+
+.box4:hover a{
+    	background:white;
+    	color:black;
+	font-weight: bold;
+}
+
+
+.box2{
+    width: 100%;
+	margin-top: 550px;
+	float:center;
+	height:40px;
+	text-align:center;
+    	font-size:22px;
+    	color:white;  
+}
+
+.box2 a{
+	color:grey;
+	font-size:16px;
+	text-decoration:none;
+	padding:8px;
+	border:2px solid grey;
+	background:white;
+	opacity: 0.5;
+	-webkit-transition:all 0.7s;
+	transition:all 0.7s;  
+	height: 40px;
+	border-top-style: hidden;
+	border-left-style: hidden;
+	border-right-style: hidden;
+ 
+}
+
+.box2:hover a{
+    background:white;
+    color:black;
+}
+
+.box22{
+    width: 100%;
+	margin-top: 310px;
+	float:center;
+	height:40px;
+	text-align:center;
+    	color:white;  
+	margin-left: 15px;
+	padding: 0px 0px 20px 0px;
+}
+
+
+.about_gallery_row{
+	width:100%;
+	margin:0;
+	clear:both; 
+}
+.about_gallery_pic, .about_gallery_desc{
+	width:100%;
+	float:left;
+	height:400px;
+	text-align:center;
+	line-height:400px;
+   	 background:#646464;
+}
+.about_gallery_desc p{
+	color:#E5E5E5;
+   	 width: 50%;
+   	 margin-top: 180px;
+    	margin-left: auto;
+    	margin-right: auto;
+    	line-height: initial;
+}
+.home_gallery_row{
+	width:100%;
+	margin:0;
+	clear:both;
+   	 float:left;
+}
+
+.home_gallery_pic, .home_gallery_desc{
+	width:50%;
+	float:center;
+	height:200px;
+	text-align:center;
+	line-height:400px;
+   	 background:#F0DDEA;
+	margin-top: 400px;
+	margin-left: auto;
+   	 margin-right: auto;
+	
+}
+
+.home_gallery_desc h3{
+	margin:0;
+	color:#E5E5E5;
+   	 margin-top: 180px;
+   	 margin-left: auto;
+   	 margin-right: auto;
+   	 line-height: initial;
+    
+}
+
+.home_gallery_pic a{
+	color:white;
+	font-size:18px;
+	text-decoration:none;
+	padding:15px;
+	border:2px solid white;
+	background:rgba(255,255,255,0);
+	-webkit-transition:all 0.7s;
+	transition:all 0.7s;
+	border-top-style: hidden;
+	border-left-style: hidden;
+	border-right-style: hidden;	
+}
+
+.lolo1 a{
+width: 100%;
+height: 50px;
+}
+
+.lolo2 a{
+width: 100%;
+height: 50px;
+}
+
+.home_gallery_pic:hover a{
+	background:rgba(255,255,255,1);
+	color:#888;
+}
+
+.pic1{
+	background:url(3.png);
+	background-position:center;
+	margin-top: 50px;
+	
+}
+
+.pic2{
+	background:url(3.png);
+	background-position:center;
+	margin-top: 50px;
+}
+.pic3{
+	background:url(onas1.jpg);
+	background-position:center;
+}
+.pic4{
+	background:url(onas2.jpg);
+	background-position:center;
+}
+.pic5{
+	background:url(onas3.jpg);
+	background-position:center;
+}
+.gallery_row{
+	float:left;
+    	width:100%;
+	margin:0;
+	clear:both;    
+}
+.gallery_pic, .gallery_desc{
+	width:50%;
+	float:left;
+	height:400px;
+	text-align:center;
+	line-height:400px;
+   	 background:#646464;  
+}
+.gallery_desc p{
+	margin:0;
+	color:#E5E5E5;
+   	 text-align:center;
+   	 font-size:18px;
+   	 margin-top: 180px;
+   	 margin-left: auto;
+   	 margin-right: auto;
+   	 line-height: initial;
+    
+}
+.gallery_pic a{
+	color:white;
+	font-size:30px;
+	text-decoration:none;
+	padding:15px;
+	border:2px solid white;
+	border-radius:3px;
+	background:rgba(255,255,255,0);
+	-webkit-transition:all 0.7s;
+	transition:all 0.7s;
+}
+.gallery_pic:hover a{
+	background:rgba(255,255,255,1);
+	color:#888;
+}
+.p1{
+	background:url(lwt.jpg);
+	background-position:center;
+}
+.p2{
+	background:url(morsy.jpg);
+	background-position:center;
+}
+.p3{
+	background:url(zplecakiem.jpg);
+	background-position:center;
+}
+.p4{
+	background:url(black.jpg);
+	background-position:center;
+}
+.photos{
+	width:100%;
+	margin:0 auto;
+	clear:both;
+      
+}
+
+.photos a{
+    display:inline-block;
+    
+}
+
+.logo{
+    		position: relative; 
+		width:150px;
+		margin: 20px auto;
+		padding:0px 0;
+}
+
+.foot{
+    	color:#DDD;
+	width:90%;
+	margin:0 auto;
+	padding:0px 0px;
+	text-align:center;
+	line-height:20px;
+    	position:relative;
+    	font-size:16px;
+	float: center;
+	
+	
+}
+.foot small{
+   
+}
+.foot li,a,p{
+   	 color:grey;
+   	   list-style-type: none;
+ 	 text-align:center;
+	 padding:0 auto;
+	font-weight: bold;
+	display: inline;
+	
+}
+
+
+footer{
+	position: relative;
+    	float:center;
+  	  width:100%;
+	margin-left: -2px;
+	margin-top: 10px;
+	
+}
+
+.fot{
+	position: relative;
+    	float:center;
+  	width:100%;
+	text-align:center;
+	margin-left: 5px;
+	padding: 15px 0px 0px 0px;
+}
+
+
+
+.button a{
+	color:grey;
+	font-size:10px;
+	text-decoration:none;
+	padding:10px;
+	border:2px solid grey;
+	border-radius:3px;
+	background:white;
+	opacity: 0.5;
+	-webkit-transition:all 0.7s;
+	transition:all 0.7s;  
+	height: 20px;
+}
+
+.fa fa-shopping-cart{
+	font-size:10px;
+	color:grey;
+	padding: 2px;
+}
+
+
+#x1 {
+
+width: 100%;
+heigh: 70px;
+position: absolute;
+margin-top: 30px;
+opacity: 0.6;
+float: center;
+
+
+}
+
+#formularz {
+        width:450px; /* ustawiamy szerokoœæ formularza */
+	margin: 0 auto;
+        background-color:#fff; /* dodajemy kolor t³a naszemu formularzowi */
+        border:2px solid #ccc; /* dodajemy obramowanie o szerokoœci 2px */
+        
+		padding:20px; /* dodajemy margines wewn¹trz naszego formularza */
+        margin-top:20px; /* dodajemy margines górny naszego formularza */
+	
+}
+
+#formularz label {
+    display:block;/* ustawiamy by label rozpoczyna³ siê od nowej linii*/
+    margin-bottom:5px;/* dodajemy margines dolny */
+    font-weight:bold; /* pogrubiamy czcionkê */
+    text-transform: uppercase; /* zamieniamy wszystkie litery na du¿e */
+    font-size:12px; /* ustawiamy wielkoœæ czcionki */
+    color:#555555; /* ustawiamy kolor czcionki */
+}
+
+#formularz textarea {
+padding:5px; /* dodajemy margines wewn¹trz naszego pola */
+	border-radius:3px; /* dodajemy zaokraglone rogi */
+	border:1px solid #ccc; /* dodajemy obramowanie */
+	margin-bottom:25px; /* dodajemy margines dolny */
+	width:370px; /* ustalamy szerokoœæ */
+	height: 220px;
+}
+#formularz input {
+	padding:5px; /* dodajemy margines wewn¹trz naszego pola */
+	border-radius:3px; /* dodajemy zaokraglone rogi */
+	border:1px solid #ccc; /* dodajemy obramowanie */
+	margin-bottom:25px; /* dodajemy margines dolny */
+	width:245px; /* ustalamy szerokoœæ */
+}
+
+#formularz input#submit {
+	width:255px; /* ustalamy szerokoœæ */
+	cursor:pointer; /* zmieniamy kursor */
+	margin-bottom:0px;/* resetujemy margines dolny */
+}
+
+#formularz p.copy {
+	color:#555555; /* ustawiamy kolor czcionki */
+	margin-bottom:0px; /* resetujemy margines dolny */
+	font-size:12px; /* ustawiamy rozmiar czcionki */
+	text-align: center; /* wyœrodkowywujemy tekst */
+}
+
+#formularz p.copy a {
+	color:#555555;/* ustawiamy kolor czcionki */ 
+	text-decoration: none; /* usuwamy podkreœlenie linku */
+	font-weight:bold; /* pogrubiamy czcionkê */
+} 
+
+
+#box40 {
+	width: 1200px;
+	position: absolute;
+	height: 540px;	
+	background-color: white ;
+	
+}
+
+/*Default carousel style - this block should have every carousel */
+.carousel {
+  width: 1300px;
+  height: 590px;
+  position: absolute;
+	top: 400px;
+	
+}
+.carousel .next, .carousel .prev {
+  width: 100px;
+  height: 100%;
+  line-height: 500px;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  cursor: pointer;
+  background: transparent;
+}
+.carousel .next {
+  right: 0px;
+  top: 0px;
+}
+.carousel .prev {
+  left: 0px;
+  top: 0px;
+}
+.carousel .container {
+  width: 80%;
+  margin: 0px auto;
+  height: 100%;
+  overflow: hidden;
+
+}
+.carousel .wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+	
+}
+.carousel .content {
+  float: center;
+  height: 100%;
+  width: 100%;
+}
+
+/*Custom style for the carousel components - this can be changed */
+.carousel .prev, .carousel .next {
+  font-size: 30px;
+  color: black;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.carousel .prev:hover, .carousel .next:hover {
+  color: black;
+}
+.carousel .prev.disable, .carousel .next.disable {
+  color: black;
+}
+
+.carousel .container {
+  background: #68B9C4;
+ 
+}
+
+.carousel .content {
+  line-height: -450px;
+  font-size: 1em;
+  color: black;
+  text-align: center;
+  color: rgba(125, 125, 125, 0.9);
+  text-shadow: 1px 4px 6px #eee, 0 0 0 #000, 1px 4px 6px #eee;
+float: center;
+
+
+
+}
+.carousel .content div {
+  height: 100%;
+}
+.carousel .content.active div {
+  box-shadow: inset 0px 0px 19px 3px #888;
+}
+
+h1 {
+  text-align: center;
+  color: #888;
+  text-shadow: 2px 2px 2px #ccc, 2px 2px 1px #000;
+}
+
+.content div {
+  margin-right: 10px;
+}
+
+
